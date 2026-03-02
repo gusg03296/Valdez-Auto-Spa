@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valdez Auto Spa</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(black,#111);
+color:white;
+text-align:center;
+}
+
+header{
+padding:30px;
+font-size:28px;
+background:#111;
+letter-spacing:2px;
+animation:fade 2s ease-in;
+}
+
+nav{
+background:#000;
+padding:15px;
+}
+
+nav a{
+color:#00ffcc;
+margin:10px;
+text-decoration:none;
+font-size:16px;
+}
+
+nav a:hover{
+color:white;
+}
+
+section{
+padding:40px 20px;
+}
+
+.card{
+background:#1a1a1a;
+margin:20px auto;
+padding:20px;
+border-radius:10px;
+width:90%;
+max-width:400px;
+box-shadow:0 0 15px #00ffcc33;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+box-shadow:0 0 25px #00ffcc;
+}
+
+button{
+background:#00ffcc;
+border:none;
+padding:12px 25px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#00ccaa;
+}
+
+footer{
+background:#000;
+padding:20px;
+margin-top:30px;
+font-size:14px;
+}
+
+@keyframes fade{
+from{opacity:0; transform:translateY(-20px);}
+to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+VALDEZ AUTO SPA<br>
+Hojalatería • Pintura • Estética Automotriz
+</header>
+
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+<h2>Nuestros Servicios</h2>
+
+<div class="card">
+<h3>Reparación de Golpes</h3>
+<p>Enderezado profesional y restauración completa.</p>
+<button>Solicitar Cotización</button>
+</div>
+
+<div class="card">
+<h3>Pintura Automotriz</h3>
+<p>Colores originales y personalizados con acabado premium.</p>
+<button>Solicitar Cotización</button>
+</div>
+
+<div class="card">
+<h3>Estética Completa</h3>
+<p>Pulido, encerado y detallado interior/exterior.</p>
+<button>Solicitar Cotización</button>
+</div>
+
+</section>
+
+<section id="galeria">
+<h2>Trabajos Recientes</h2>
+<p>Antes y después con resultados profesionales.</p>
+</section>
+
+<section id="contacto">
+<h2>Contacto Directo</h2>
+<p>WhatsApp: 55 0000 0000</p>
+<p>Ubicación: México</p>
+<button>Contactar Ahora</button>
+</section>
+
+<footer>
+© 2026 Valdez Auto Spa | Taller Profesional
+</footer>
+
+</body>
+</html>
